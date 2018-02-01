@@ -35,7 +35,7 @@
       tags: ['extra-packages']
 
     - include: tasks/macports.yml
-      when: macports_installed_apps
+      when: macports_installed_packages
       tags: ['macports']
 
     - name: Run configured post-provision ansible task files.
