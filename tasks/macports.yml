@@ -2,4 +2,5 @@
     name: "{{ item }}"
     state: present
     update_cache: yes
-    with_items: "{{ macports_installed_apps }}"
+  become: yes
+  with_items: "{{ macports_installed_packages }}"
