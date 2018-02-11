@@ -22,8 +22,6 @@
       tags: ['mas']
 
   tasks:
-    - include: tasks/ansible-setup.yml
-
     - include: tasks/sudoers.yml
       when: configure_sudoers
 
