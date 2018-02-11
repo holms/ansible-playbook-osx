@@ -1,4 +1,4 @@
 ---
 - name: geerlingguy.dotfiles
-- name: geerlingguy.homebrew
+- src: https://github.com/bartoszj/ansible-role-homebrew.git
 - name: geerlingguy.mas
